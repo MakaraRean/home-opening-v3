@@ -1,0 +1,24 @@
+Table(){
+    users([
+        id
+        name
+        password
+        isAdmin
+
+    ])
+
+    custommer([
+        id
+        khName
+        enName
+        khCurrency
+        enCurrency
+        address_id
+    ])
+
+    address([
+        id
+        name
+    ])
+
+}
